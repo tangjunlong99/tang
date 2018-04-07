@@ -2,7 +2,7 @@ name: Tang
 type: theme
 description: 中二主题
 core: 8.x
-base theme: stable
+base theme: bootstrap
 
 libraries:
   - tang/global-css
