@@ -10,6 +10,7 @@ libraries:
 
 regions:
     header: 'Header'
+    slideshow: 'Slideshow'
     content: 'Main Content'
     sidebar: 'Sidebar'
     footer: 'Footer'
