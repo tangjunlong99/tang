@@ -7,11 +7,11 @@ span.badge-dark a {
 	color: #fff;
 }
 
-toolbar toolbar-oriented {
+#toolbar-menu {
 	z-index: 50;
 }
 
-block-tang-main-menu {
+#block-tang-main-menu {
 	z-index: 0;
 }
 
