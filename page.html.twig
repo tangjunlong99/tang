@@ -9,23 +9,23 @@
     </div>
   {% endif %}
 
-  <div class="container paddin_bottom">
-    <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+  <div class="container">
     <div class="row">
-      <div class="layout-content">
-        {{ page.content }}
-      </div>{# /.layout-content #}
+
+      {% if page.content %}
+        <main class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+          {{ page.content }}
+        </main>
+      {% endif %}
 
       {% if page.sidebar %}
-        <aside class="layout-sidebar-first" role="complementary">
+        <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-2" role="complementary">
           {{ page.sidebar }}
         </aside>
       {% endif %}
 
-    </div>
-    </main>
-  </div>
+    </div>{# /.row #}
+  </div>{# /.container #}
 
   {% if page.footer %}
   <footer role="contentinfo">
