@@ -6,6 +6,15 @@ main.container {
 span.badge-dark a {
 	color: #fff;
 }
+
+toolbar toolbar-oriented {
+	z-index: 50;
+}
+
+block-tang-main-menu {
+	z-index: 0;
+}
+
 #block-mainnavigation, #block-tang-main-menu {
 	background-color: #1B4A6C;
 	padding: 0px 10px;
