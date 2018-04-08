@@ -4,8 +4,10 @@
   </header>
 
   {% if page.slideshow %}
-    <div class="container">
-      {{page.slideshow}}
+    <div class="container-fluid">
+      <div class="slideshow">
+        {{page.slideshow}}
+      </div>
     </div>
   {% endif %}
 

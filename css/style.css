@@ -4,6 +4,15 @@ footer {
     border: 0;
 }
 
+.container-fluid {
+	padding: 0;
+}
+
+.slideshow {
+	margin-top: 2px;
+	z-index:  1;
+}
+
 div.layout-container {
 	margin-bottom: 90px;
 }
