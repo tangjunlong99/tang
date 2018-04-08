@@ -1,13 +1,11 @@
-<div class="layout-container">
-  <header role="banner">
+<div class="container-fluid">
+  <header class="container" role="banner">
     {{ page.header }}
   </header>
 
   {% if page.slideshow %}
-    <div class="container-fluid">
-      <div class="slideshow">
+    <div class="container">
         {{page.slideshow}}
-      </div>
     </div>
   {% endif %}
 
@@ -30,9 +28,9 @@
   </div>{# /.container #}
 
   {% if page.footer %}
-  <footer role="contentinfo">
-    {{ page.footer }}
-  </footer>
+    <footer class="container" role="contentinfo">
+      {{ page.footer }}
+    </footer>
   {% endif %}
 
 
