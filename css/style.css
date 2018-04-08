@@ -1,12 +1,13 @@
-footer {
-	padding-bottom: 90px;
-    margin: 0;
-    border: 0;
-}
+
 
 div.container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+
+span.badge-dark a {
+	color: #fff;
 }
 
 #slideshows {
@@ -15,12 +16,10 @@ div.container-fluid {
     margin-top: 1px;
 }
 
-div.layout-container {
-	margin-bottom: 90px;
-}
-
-span.badge-dark a {
-	color: #fff;
+#footers {
+	padding-bottom: 90px;
+    margin: 0;
+    border: 0;
 }
 
 #toolbar-menu {
