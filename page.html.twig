@@ -9,7 +9,8 @@
     </div>
   {% endif %}
 
-  <main class="container" role="main">
+  <div class="container paddin_bottom">
+    <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
     <div class="row">
       <div class="layout-content col-xs-12 col-sm-9 col-md-8">
@@ -23,13 +24,16 @@
       {% endif %}
 
     </div>
-  </main>
+    </main>
+  </div>
 
   {% if page.footer %}
   <footer role="contentinfo">
     {{ page.footer }}
   </footer>
   {% endif %}
+
+
   <nav class="navbar fixed-bottom bg-light justify-content-center" id="nav-botton-menu">
     <ul class="nav justify-content-center">
       <li class="nav-item">
