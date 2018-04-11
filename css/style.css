@@ -49,16 +49,16 @@ span.badge-dark a {
 }
 
 #nav-botton-menu ul li{
-	padding:  6px 25px 10px 25px;
+	padding:  6px 20px 10px 20px;
 }
 
 #nav-botton-menu img{
-	width: 32px;
-	height: 32px;
+	width: 28px;
+	height: 28px;
 }
 
 .nav-botton-text {
-	font-size: 15px;
+	font-size: 10px;
 	color: #000;
 	text-align: center;
 }
