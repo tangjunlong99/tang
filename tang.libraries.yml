@@ -2,6 +2,7 @@ global-css:
   css:
     theme:
       css/bootstrap.css: {}
+      open-iconic/font/css/open-iconic-bootstrap.css: {}
       css/style.css: {}
 global-js:
   js:
