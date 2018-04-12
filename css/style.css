@@ -16,6 +16,9 @@ aside {
 	padding: 15px;
 }
 
+button.btn.btn-danger {
+	color: #FFF;
+}
 #slideshows {
     padding-left: 0px;
     padding-right: 0px;
