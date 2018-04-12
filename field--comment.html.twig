@@ -26,17 +26,16 @@
  * @see comment_preprocess_field()
  */
 #}
-<section{{ attributes }}>
+<section{{ attributes }} class="container">
   {% if comments and not label_hidden %}
     {{ title_prefix }}
-    <h2{{ title_attributes }}>评论</h2>
+    <h2{{ title_attributes }}>全部回复</h2>
     {{ title_suffix }}
   {% endif %}
 
   {{ comments }}
 
   {% if comment_form %}
-    <h2{{ content_attributes }}>{{ 'Add new comment'|t }}</h2>
     {{ comment_form }}
   {% endif %}
 

@@ -1,10 +1,10 @@
-<div class="container">
+<div class="layout-container">
   <header role="banner">
     {{ page.header }}
   </header>
 
   {% if page.slideshow %}
-    <div class="container" id="slideshows">
+    <div id="slideshows">
         {{page.slideshow}}
     </div>
   {% endif %}
@@ -28,7 +28,7 @@
   </div>{# /.container #}
 
   {% if page.footer %}
-    <footer role="contentinfo" id="footers" class="container">
+    <footer role="contentinfo" id="footers">
       {{ page.footer }}
     </footer>
   {% endif %}
