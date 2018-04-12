@@ -97,3 +97,14 @@ li.media img {
 	font-size: 12px;
 	color: #6C6C6C;
 }
+
+div.media-body h3 {
+	font-size: 1.25rem;
+	color: #ea7340;
+}
+
+@media (max-width: 500px) {
+	.font_size {
+	font-size: 5px;
+	}
+}
