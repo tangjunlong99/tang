@@ -103,6 +103,11 @@ div.media-body h3 a {
 	color: #ea7340;
 }
 
+div.media-body p {
+	font-size: 0.5rem;
+	color: #8a8a8a;
+}
+
 @media (max-width: 500px) {
 	.font_size {
 	font-size: 5px;
