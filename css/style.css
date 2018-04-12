@@ -98,7 +98,7 @@ li.media img {
 	color: #6C6C6C;
 }
 
-div.media-body h3 {
+div.media-body h3 a {
 	font-size: 1.25rem;
 	color: #ea7340;
 }
