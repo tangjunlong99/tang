@@ -1,0 +1,56 @@
+<div class="layout-container">
+  <header role="banner">
+    {{ page.header }}
+  </header>
+
+  {% if page.slideshow %}
+    <div id="slideshows" class="container">
+        {{page.slideshow}}
+    </div>
+  {% endif %}
+
+  {% if page.content %}
+    <main>
+      <div class="container">
+        <div class="row">
+          {{ page.content }}
+        </div>{# /.row #}
+      </div>{# /.container #}
+    </main>
+  {% endif %}
+
+  {% if page.footer %}
+    <footer role="contentinfo" id="footers">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+  <nav class="navbar fixed-bottom bg-light justify-content-center" id="nav-botton-menu">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="/">
+          <div class="row"><img src="/themes/custom/tang/svg/home.svg" alt="icon name"></div>
+          <div class="row nav-botton-text">我们</div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/income">
+          <div class="row"><img src="/themes/custom/tang/svg/yen.svg" alt="icon name"></div>
+          <div class="row nav-botton-text">赚钱</div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/story">
+          <div class="row"><img src="/themes/custom/tang/svg/video.svg" alt="icon name"></div>
+          <div class="row nav-botton-text">故事</div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/like">
+          <div class="row"><img src="/themes/custom/tang/svg/heart.svg" alt="icon name"></div>
+          <div class="row nav-botton-text">喜欢</div>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>{# /.layout-container #}
