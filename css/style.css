@@ -16,6 +16,10 @@ aside {
 	padding: 15px;
 }
 
+footer {
+	background-color: #1B4A6C;
+}
+
 a {
 	color: #ea7340;
 }
@@ -23,6 +27,7 @@ a {
 button.btn.btn-danger a {
 	color: #FFF;
 }
+
 
 #slideshows {
     padding-left: 0px;
