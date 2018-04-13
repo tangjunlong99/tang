@@ -19,6 +19,12 @@ aside {
 footer {
 	background-color: #1B4A6C;
 	color: #fff;
+	padding: 10 0 90;
+    margin:0 auto;
+}
+
+footer div.container {
+	padding: 0px 0px;
 }
 
 a {
@@ -36,14 +42,7 @@ button.btn.btn-danger a {
     margin-top: 1px;
 }
 
-#footers {
-	padding: 10 0 90;
-    margin:0 auto;
- }
 
-#footers div.container {
-	padding: 0px 0px;
-}
 
 #toolbar-menu {
 	z-index: 50;
