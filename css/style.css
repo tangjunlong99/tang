@@ -17,6 +17,10 @@ aside {
 }
 
 footer {
+	font-size: 0.5rem;
+}
+
+footer#footers {
 	background-color: #1B4A6C;
 	color: #fff;
 	padding: 5px 0px 60px;
