@@ -18,9 +18,9 @@ aside {
 
 footer {
 	background-color: #1B4A6C;
-	color: #fff;
-	padding: 10 0 90;
-    margin:0 auto;
+	color: #000;
+	padding: 10px 0px 90px;
+    margin: 10px auto;
 }
 
 footer div.container {
