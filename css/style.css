@@ -17,15 +17,10 @@ aside {
 }
 
 footer {
-	font-size: 0.5rem;
-}
-
-footer#footers {
 	background-color: #1B4A6C;
 	color: #fff;
 	padding: 5px 0px 60px;
     margin: 5px auto;
-    font-size: 0.8rem;
 }
 
 footer div.container {
@@ -40,9 +35,6 @@ button.btn.btn-danger a {
 	color: #FFF;
 }
 
-#navbarNav ul li {
-	padding: 10px;
-}
 
 #slideshows {
     padding-left: 0px;
@@ -75,7 +67,7 @@ button.btn.btn-danger a {
 }
 
 #nav-botton-menu{
-	padding: 0px;
+	padding: 0;
 }
 
 #nav-botton-menu ul li{
@@ -88,8 +80,10 @@ button.btn.btn-danger a {
 }
 
 .nav-botton-text {
-	font-size: 12px;
+	font-size: 10px;
 	color: #000;
+	text-align: center;
+}
 
 
 ul.navbar-nav li.nav-item a {
@@ -128,6 +122,6 @@ div.media-body p {
 
 @media (max-width: 500px) {
 	.font_size {
-		font-size: 0.8rem;
+	font-size: 0.8rem;
 	}
 }
