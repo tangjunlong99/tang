@@ -13,7 +13,7 @@
 
 {% else %}
   <div{{ attributes }}>
-    <div{{ title_attributes }}>{{ label }}:
+    <div class="margin" {{ title_attributes }}><span class="oi oi-paperclip"></span><span>{{ label }}:</span>
       {% for item in items %}
         <span class="badge badge-dark"{{ item.attributes }}>{{ item.content }}</span>
       {% endfor %}
