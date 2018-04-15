@@ -45,7 +45,7 @@
         {%- if item.link -%}
           <button type="button" class="btn btn-outline-danger margin"><span class="oi oi-envelope-closed"></span> {{ item.link }}</button>
         {%- elseif item.text_attributes -%}
-          <button type="button" class="btn btn-outline-danger"><span class="oi oi-envelope-closed"></span>{{ item.text_attributes }}>{{ item.text }}</botton>
+          <button type="button" class="btn btn-outline-danger"><span class="oi oi-envelope-closed"></span>{{ item.text_attributes }}</botton>{{ item.text }}
         {%- else -%}
           <button type="button" class="btn btn-outline-danger"><span class="oi oi-envelope-closed"></span>{{ item.text }}</button>
         {%- endif -%}
