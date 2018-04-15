@@ -10,4 +10,6 @@
  * @see template_preprocess_input()
  */
 #}
-<input{{ attributes }} />{{ children }}
+{% set classes = ['textarea'] %}
+
+<input{{ attributes.addClass(classes) }} />{{ children }}
