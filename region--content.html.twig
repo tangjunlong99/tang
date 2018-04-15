@@ -12,10 +12,10 @@
  * @see template_preprocess_region()
  */
 #}
-{% set classes = ['container'] %}
+{% set classes = ['textarea'] %}
 
 {% if content %}
-  <div{{ attributes }}>
+  <div{{ attributes.addClass(classes)}}>
     {{ content }}
   </div>
 {% endif %}
