@@ -45,9 +45,9 @@
         {%- if item.link -%}
           <button type="button" class="btn btn-outline-danger margin"><span class="oi oi-envelope-closed"></span> {{ item.link }}</button>
         {%- elseif item.text_attributes -%}
-          <button type="button" class="btn btn-outline-danger"><span class="oi oi-envelope-closed"></span>{{ item.text_attributes }}</botton>{{ item.text }}
+          <button type="button" class="btn btn-outline-danger"><span class="oi oi-account-login"></span> {{ item.text_attributes }}</botton>{{ item.text }}
         {%- else -%}
-          <button type="button" class="btn btn-outline-danger"><span class="oi oi-envelope-closed"></span>{{ item.text }}</button>
+          <button type="button" class="btn btn-outline-danger"><span class="oi oi-book"></span> {{ item.text }}</button>
         {%- endif -%}
       </li>
     {%- endfor -%}
