@@ -47,7 +47,7 @@
         {%- elseif item.text_attributes -%}
           <button type="button" class="btn btn-outline-danger"><span class="oi oi-account-login"></span> {{ item.text_attributes }}</botton>{{ item.text }}
         {%- else -%}
-          <button type="button" class="btn btn-outline-danger"><span class="oi oi-book"></span> {{ item.text }}</button>
+          <span class="oi oi-book"></span> {{ item.text }}
         {%- endif -%}
       </li>
     {%- endfor -%}
